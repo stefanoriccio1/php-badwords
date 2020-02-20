@@ -23,9 +23,9 @@ $newText = str_replace($badword, "***", $text);
     <p>Badword</p>
     <h3><?php echo $badword?></h3>
     <p>rimpiazzo parola</p>
-    <p><?php
+    <h3><?php
     echo $newText;
-    ?></p>
+    ?></h3>
 
    </div>
   </body>
