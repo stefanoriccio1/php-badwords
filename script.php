@@ -5,6 +5,14 @@ $text = "Ciao, come stai? Spero tutto bene, a me sta andando alla grande!";
 $badword = $_GET["badword"];
 // rimpiazzo
 $newText = str_replace($badword, "***", $text);
+
+$array = [
+  1,
+  2,
+  3
+];
+
+var_dump($array);
 ?>
 
 <!DOCTYPE html>
